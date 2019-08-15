@@ -16,11 +16,11 @@ Python爬虫进阶 JS 解密逆向实战
 13. 药监局瑞数加密破解
 
 JS加密分析破解说明：
-1. ![JS逆向之贝贝网登录](https://mp.weixin.qq.com/s/Ex93COLBX3_MMhIIXwozYg)
-2. ![JS逆向之电信登录](https://mp.weixin.qq.com/s/P27oJGafyHsOnxptgHiUPQ)
-3. ![JS逆向之国航登录](https://mp.weixin.qq.com/s/YWgMoGn4_YVhCPXPOAmrkA)
-4. ![JS逆向之新榜登录](https://mp.weixin.qq.com/s/548sZpUE1xq2lCs-olVIzQ)
-5. ![JS逆向入门篇](https://mp.weixin.qq.com/s/xb8VdJGD-DgQzq8yWOBpag)
+1. [JS逆向之贝贝网登录](https://mp.weixin.qq.com/s/Ex93COLBX3_MMhIIXwozYg)
+2. [JS逆向之电信登录](https://mp.weixin.qq.com/s/P27oJGafyHsOnxptgHiUPQ)
+3. [JS逆向之国航登录](https://mp.weixin.qq.com/s/YWgMoGn4_YVhCPXPOAmrkA)
+4. [JS逆向之新榜登录](https://mp.weixin.qq.com/s/548sZpUE1xq2lCs-olVIzQ)
+5. [JS逆向入门篇](https://mp.weixin.qq.com/s/xb8VdJGD-DgQzq8yWOBpag)
 
 二: 关于本人
 公众号：Python编程与实战，欢迎关注一起探讨学习，获取更多知识
