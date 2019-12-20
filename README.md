@@ -14,6 +14,7 @@ Python爬虫进阶 JS 解密逆向实战
 11. 淘宝信用查询网
 12. 自媒体工具新榜登录
 13. 药监局瑞数加密破解
+14. 芒果TV登录
 
 JS加密分析破解说明：
 1. [JS逆向之贝贝网登录](https://mp.weixin.qq.com/s/Ex93COLBX3_MMhIIXwozYg)
@@ -21,6 +22,15 @@ JS加密分析破解说明：
 3. [JS逆向之国航登录](https://mp.weixin.qq.com/s/YWgMoGn4_YVhCPXPOAmrkA)
 4. [JS逆向之新榜登录](https://mp.weixin.qq.com/s/548sZpUE1xq2lCs-olVIzQ)
 5. [JS逆向入门篇](https://mp.weixin.qq.com/s/xb8VdJGD-DgQzq8yWOBpag)
+6. [JS逆向X果TV登录](https://mp.weixin.qq.com/s/mVDR6daS5B4QQJX5IDjSag)
+
+安卓APP逆向篇：
+
+1. [XXS](https://mp.weixin.qq.com/s/MW2BQcQyN1A88ljYWQWz6w)
+2. [XX通](https://mp.weixin.qq.com/s/D7gWwvaA9Vjd8ub8THrf0Q)
+3. [X力播](https://mp.weixin.qq.com/s/1RcPLeBHzOJcPiOzK3NDqQ)
+4. [XX书](https://mp.weixin.qq.com/s/t_KHnIVnO0XqVSPe_uCRXQ)
+
 
 二: 关于本人
 
