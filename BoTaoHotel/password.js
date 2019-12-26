@@ -5,8 +5,22 @@ const iv = CryptoJS.enc.Latin1.parse('h5LoginIv1234567');   //十六位十六进
 // AES 加密方法
 function Encrypt(word) {
     let srcs = CryptoJS.enc.Utf8.parse(word);
-    let encrypted = CryptoJS.AES.encrypt(srcs, key, { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.ZeroPadding});
+    let encrypted = CryptoJS.AES.encrypt(srcs, key, {
+        iv: iv,
+        mode: CryptoJS.mode.CBC,
+        padding: CryptoJS.pad.ZeroPadding
+    });
     return encrypted.toString();
 }
 
-console.log(Encrypt("123456"));
+
+function Decrypt(word) {
+    let encryptedHexStr = CryptoJS.enc.Utf8.parse(word);
+    let srcs = CryptoJS.enc.Utf8.stringify(encryptedHexStr);
+    let decrypt = CryptoJS.AES.decrypt(srcs, key, {iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.ZeroPadding});
+    let decryptedStr = decrypt.toString(CryptoJS.enc.Utf8);
+    return decryptedStr.toString();
+}
+
+console.log(Encrypt("12346"));
+console.log(Decrypt("FEnevWmepQE3bc/RTC8uAw=="));

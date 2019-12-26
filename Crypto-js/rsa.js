@@ -27,10 +27,10 @@ navigator = {
     webdriver: false
 }, window = this, window.navigator = navigator;
 
-(function(global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) : typeof define === 'function' && define.amd ? define(['exports'], factory) : (factory((global.JSEncrypt = {})));
-}(this, (function(exports) {
-    'use strict';
+// (function(global, factory) {
+//     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) : typeof define === 'function' && define.amd ? define(['exports'], factory) : (factory((global.JSEncrypt = {})));
+// }(this, (function(exports) {
+//     'use strict';
 
     var BI_RM = "0123456789abcdefghijklmnopqrstuvwxyz";
     function int2char(n) {
@@ -5624,17 +5624,17 @@ version: 2.9.0
         return JSEncrypt;
     }());
 
-    // window.JSEncrypt = JSEncrypt;
-    //
-    // exports.JSEncrypt = JSEncrypt;
-    // exports.default = JSEncrypt;
-    //
-    // Object.defineProperty(exports, '__esModule', {
-    //     value: true
-    // });
+    window.JSEncrypt = JSEncrypt;
 
-}
-)));
+    exports.JSEncrypt = JSEncrypt;
+    exports.default = JSEncrypt;
+
+    Object.defineProperty(exports, '__esModule', {
+        value: true
+    });
+
+// }
+// )));
 
 function encrypt(pwd){
 	var key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsgDq4OqxuEisnk2F0EJFmw4xKa5IrcqEYHvqxPs2CHEg2kolhfWA2SjNuGAHxyDDE5MLtOvzuXjBx/5YJtc9zj2xR/0moesS+Vi/xtG1tkVaTCba+TV+Y5C61iyr3FGqr+KOD4/XECu0Xky1W9ZmmaFADmZi7+6gO9wjgVpU9aLcBcw/loHOeJrCqjp7pA98hRJRY+MML8MK15mnC4ebooOva+mJlstW6t/1lghR8WNV8cocxgcHHuXBxgns2MlACQbSdJ8c6Z3RQeRZBzyjfey6JCCfbEKouVrWIUuPphBL3OANfgp0B+QG31bapvePTfXU48TYK0M5kE+8LgbbWQIDAQAB";
@@ -5642,6 +5642,6 @@ function encrypt(pwd){
     encrypt.setPublicKey(key);
     var encrypted = encrypt.encrypt(pwd);
     return encrypted;
-};
-
+}
 console.log(encrypt("123456"));
+
