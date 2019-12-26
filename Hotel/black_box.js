@@ -1,3 +1,9 @@
+const Window = require("window");
+window = new Window();
+document = window.document;
+window.String = String;
+navigator = window.navigator;
+
 function black_box() {
     var OOo0oo = "length";
     var Q00OoO = "charCodeAt";
@@ -2915,3 +2921,5 @@ function black_box() {
     };
     return QOQQOo.oQOooo()
 }
+
+console.log(black_box());
