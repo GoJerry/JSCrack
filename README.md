@@ -1,4 +1,5 @@
 # JerryJSCrack
+# 详细教程关注公众号： Python编程与实战！
 Python爬虫进阶 JS 解密逆向实战
 
 1. iBank登录
