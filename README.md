@@ -1,7 +1,7 @@
 # Python编程与实战 JSCrack
 # 详细教程关注公众号： Python编程与实战！
+## 声明：本文只用于学习研究，禁止用于非法用途，如有侵权，请联系我删除，谢谢！
 Python爬虫进阶 JS 解密逆向实战
-
 1. iBank登录
 2. 加速乐 cookie 破解
 3. 手机贝贝网登录
@@ -28,6 +28,10 @@ JS加密分析破解说明：
 4. [JS逆向之新榜登录](https://mp.weixin.qq.com/s/548sZpUE1xq2lCs-olVIzQ)
 5. [JS逆向入门篇](https://mp.weixin.qq.com/s/xb8VdJGD-DgQzq8yWOBpag)
 6. [JS逆向X果TV登录](https://mp.weixin.qq.com/s/mVDR6daS5B4QQJX5IDjSag)
+7. [JS逆向某酒店登录](https://mp.weixin.qq.com/s/eXMgPm4VhJcY54VFb0-ljQ)
+8. [JS逆向RSA加密网站合集](https://mp.weixin.qq.com/s/FQ_FJKkrecHnHsQQP7UNHA)
+9. [某验滑动验证码加密分析还原](https://mp.weixin.qq.com/s/jjy8DUSLW73shyDtCXmeYw)
+geetest
 
 安卓APP逆向篇：
 
