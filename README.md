@@ -20,6 +20,7 @@ Python爬虫进阶 JS 解密逆向实战
 16. 开源中国登录
 17. 锦江酒店/7天
 18. 携程eleven参数
+19. 市场监督管理局(SCJDGLJ)
 
 JS加密分析破解说明：
 1. [JS逆向之贝贝网登录](https://mp.weixin.qq.com/s/Ex93COLBX3_MMhIIXwozYg)
