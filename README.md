@@ -46,7 +46,5 @@ geetest
 
 公众号：Python编程与实战，欢迎关注一起探讨学习，获取更多知识
 
-邮箱：ningjun24@163.com
-
 ![](https://upload-images.jianshu.io/upload_images/16366265-2e1f6469129a3637.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
